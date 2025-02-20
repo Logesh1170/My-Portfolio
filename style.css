@@ -125,7 +125,13 @@
   box-sizing: border-box;
 }
 
-a { text-decoration: none; }
+a { text-decoration: none; 
+  color: var(--white-1);
+  font-size: var(--fs-8);
+  font-weight: var(--fw-300);
+  width:fit-content;
+  border-radius: 8px;
+}
 
 li { list-style: none; }
 
