@@ -51,7 +51,7 @@
         </div>
 
         <div class="info-content">
-          <a href="https://drive.google.com/file/d/1CAC2pMtz_Uzb8DswKblge2x3wYA9K0KA/view?usp=sharing" download="Logesh-CV" target="_blank">Download CV</a>
+          <a href="https://drive.google.com/file/d/1CAC2pMtz_Uzb8DswKblge2x3wYA9K0KA/view?usp=sharing" download="Logesh-CV" target="_blank" class="title">Download Resume</a>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
@@ -970,6 +970,35 @@ with peers to develop and refine the project, showcasing problem-solving abiliti
             <li class="blog-post-item">
 
               <figure class="blog-banner-box">
+                <img src="./assets/images/Journal.png"  loading="lazy" onclick="showImage('./assets/images/Journal.png')">
+              </figure>
+
+              <div id="imageModal" class="modal">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <img id="fullImage" src="./assets/images/Journal.png">
+            </div>
+
+              <div class="blog-content">
+
+                <div class="blog-meta">
+                  <p class="blog-category">Date</p>
+
+                  <span class="dot"></span>
+
+                  <time datetime="2024-03-20">March 20, 2024</time>
+                </div>
+
+                <h3 class="h3 blog-item-title">Conference Paper Presentation</h3>
+
+                <p class="blog-text">
+                  Won the Young Innovator Award for my innovative Idea.
+                </p>
+              </div>
+          </li>
+
+            <li class="blog-post-item">
+
+              <figure class="blog-banner-box">
                 <img src="./assets/images/Young Innovator.jpg"  loading="lazy" onclick="showImage('./assets/images/Young Innovator.jpg')">
               </figure>
 
@@ -1259,7 +1288,7 @@ with peers to develop and refine the project, showcasing problem-solving abiliti
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="https://forms.gle/oYxWMftP5qXFB7w86" target="_blank" class="form" data-form>
+          <form action="https://formspree.io/f/mzzankpn" method="POST" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
